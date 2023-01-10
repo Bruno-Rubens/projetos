@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'open sans';
+}
+
+#conteudo{
+    width: 70vw;
+    margin: auto;
+}
+h1{
+    color: #111;
+}
+p{
+    color: #555;
+}
+a{
+    color:  #fd8a24;
+}
+.top-header{
+    height: 24px;
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    border-bottom: 5px solid #fd8a24;
+    font-weight: 700;
+    text-align: center;
+}
+#content{
+    width: 50vw;  
+    margin: auto; 
+}
+.sociais{
+    height: 20px;
+    width: 20px;
+    margin: 10px 5px;
+}
+#img-content{
+    width: 50vw;
+}

@@ -1,0 +1,71 @@
+body{
+    font-family: 'open sans', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #555;
+}
+h1,h2{     /*SEPARAR OS SELETORES POR VÍRGULA QUER DIZER QUE TODAS AS PROPRIEDADES VÃO VALER PARA TODOS OS H1 E H2 */
+    color: #111;
+}
+.top-header{
+    background-color: #333;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    border-bottom: 5px solid #fd8a24;
+}
+.container{
+    max-width: 888px;
+    margin: auto;
+    padding: 30px;
+}
+.head-line{
+    font-size: 56px;
+    line-height: 64px; /*NORMALMENTE O LINE-HEIGHT TEM O TAMANHO DO FONT-SIZE + 8Px A 12Px*/
+}
+.subtitle{
+   font-weight: 400;
+   font-size: 20px; 
+}
+.author{
+    font-weight: bold;
+    font-size: 0.8em; /*20% menor que o font-size da div padrão*/
+}
+.social-icons{
+    margin-top: 10px;
+}
+.social-icon{
+    width: 20px;
+    padding: 10px 10px 10px 0;
+}
+a{
+    text-decoration: none;
+    color: #fd8a24;
+    font-weight: 700;
+}
+.content{
+    max-width: 648px;
+    margin: auto; /*Para centralizar a div e não apenas o texto*/
+}
+p{
+    font-size: 20px;
+    line-height: 32px;
+}
+.cta{
+    font-size: 20px;
+    margin: 30px 0;
+}
+figure{
+    padding: 0;
+    margin: 40px 0;
+    font-size: 12px;
+}
+figure>img{ /*Usar o sinal ">" indica que seleionamos apenas as "img" dentro de "figure"*/
+    width: 100%;
+}
+.footer{
+    background-color: #333;
+    height: 100px;
+}

@@ -1,0 +1,16 @@
+ANOTAÇÕES DO PROJETO "PÁGINA DE CONTEÚDO"
+
+Começar por partes dividindo a página em partes
+
+Observar o font-size e line-height
+
+Usar divs também para separar o conteúdo que você não quer aplicar certos estilos.
+ 
+Nem toda div precisa de h1 ou p, podemos simplesmente escrever lá. 
+
+Para diferenciar a largura do cabeçalho e do resto do conteúdo posso usar max-width
+
+SOBRE IMG:
+Nem sempre precisamos editar as imagens em um editor, podemos utilizar width:100%
+
+ESTUDAR SELETORES COMBINADORES 
